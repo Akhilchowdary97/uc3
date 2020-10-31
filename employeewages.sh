@@ -2,13 +2,13 @@ EMPLOYEE_PART_TIME=1
 EMPLOYEE_FULL_TIME=2
 EMPLOYEE_RATE_PER_HOUR=100
 MAX_WORKING_DAYS=5
-MAX_WORKING_HOURS=200
+MAX_WORKING_HOURS=8
 
 
 #Variable
 totalWage=0             #camel case
 total_working_days=0    #underscore
-total_working_hours=8
+total_working_hours=0
 
 #get employee wage per day
 getEmployeeWage() {
